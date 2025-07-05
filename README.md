@@ -43,5 +43,3 @@ Chat API: Real-time messaging between users
 Agreement API: Manage roommate agreements
 
 Upload API: Handle image uploads for profiles and listings
-
-This project is great for students or anyone looking for a reliable way to find compatible roommates, combining matching, communication, and easy profile management all in one platform.
