@@ -1,45 +1,78 @@
-# roommate
-Roommate Finder is a web app that helps users find compatible roommates. Built with React and Node.js, it offers user profiles, compatibility matching, roommate listings, real-time chat, and agreement forms. The app is responsive and easy to use, making roommate hunting simple and efficient.
+# **roommate**
 
-Technologies Used:
-Frontend: React, JSX, CSS
+**Roommate Finder** is a web app that helps users find compatible roommates. Built with **React** and **Node.js**, it offers user profiles, compatibility matching, roommate listings, real-time chat, and agreement forms. The app is responsive and easy to use, making roommate hunting simple and efficient.
 
-Backend: Node.js, Express
 
-Database: MongoDB (for user data, profiles, listings)
+## **Features**
 
-Authentication: JWT-based user login and registration
+* **User Registration, Login & Profile Management**
+  Secure sign-up/login and detailed user profiles with preferences.
 
-Real-time Communication: WebSocket or Socket.io for chat
+* **Compatibility Matching**
+  Personalized compatibility forms to find the best roommate matches.
 
-File Uploads: Multer middleware for profile and listing images
+* **Roommate Listings**
+  Browse, search, and view detailed listings with photos.
 
-Deployment tools: Vite for frontend bundling
+* **Real-time Chat**
+  Communicate instantly with matched roommates using live chat.
 
-Key Features:
-User registration, login, and profile management
+* **Agreement Forms**
+  Create and manage roommate contracts securely within the app.
 
-Compatibility forms for personalized roommate matching
+* **Inbox & Notifications**
+  Manage messages and receive notifications seamlessly.
 
-View and search roommate listings with photos and details
+* **Geolocation & Interactive Maps**
+  View roommate locations on interactive maps powered by **Leaflet**, with browser-based geolocation support for nearby searches.
 
-Real-time chat to communicate with matches
+* **Responsive Design**
+  Fully responsive layout optimized for both mobile and desktop users.
 
-Agreement forms to create roommate contracts
+## **Technologies Used**
 
-Inbox for message management and notifications
+**Frontend:** React, JSX, CSS
+**Backend:** Node.js, Express
+**Database:** MongoDB (for user data, profiles, listings)
+**Authentication:** JWT-based user login and registration
+**Real-time Communication:** WebSocket or Socket.io for chat
+**File Uploads:** Multer middleware for profile and listing images
+**Deployment Tools:** Vite for frontend bundling
 
-Responsive design for mobile and desktop users
+## **APIs**
 
-APIs:
-User API: Register, login, update profile
+* **User API:** Register, login, update profile
+* **Listing API:** Create, read, update, delete roommate listings
+* **Compatibility API:** Submit and retrieve compatibility preferences
+* **Chat API:** Real-time messaging between users
+* **Agreement API:** Manage roommate agreements
+* **Upload API:** Handle image uploads for profiles and listing
 
-Listing API: Create, read, update, delete roommate listings
+## **Technologies & 3rd Party APIs Used**
 
-Compatibility API: Submit and retrieve compatibility preferences
+### **Frontend**
 
-Chat API: Real-time messaging between users
+* **React** (JSX) for UI
+* **Bootstrap** & **React-Bootstrap** for styling and responsiveness
+* **Leaflet** & **React-Leaflet** for interactive maps showing roommate locations
+* **Emoji Picker React** for emojis in chat and forms
+* **Axios** for HTTP requests
+* **Socket.io-client** for real-time chat
+* **jsPDF** & **jsPDF-autotable** for PDF generation (agreements)
+* **Pusher-js** for real-time event broadcasting (optional push notifications)
+* **Vite** for frontend bundling and development
 
-Agreement API: Manage roommate agreements
+### **Backend**
 
-Upload API: Handle image uploads for profiles and listings
+* **Node.js** & **Express** for API and server
+* **MongoDB** (via Mongoose) for data storage
+* **JWT** (jsonwebtoken) for secure authentication
+* **Multer** for file uploads
+* **Socket.io** for real-time chat backend
+* **Pusher** for real-time events (optional)
+* **bcryptjs** for password hashing
+* **dotenv** for environment variables
+* **OpenAI SDK** for AI-powered features (chatbot, recommendations, compatibility analysis)
+* **CORS** middleware
+* **Axios** for server-side HTTP calls
+
